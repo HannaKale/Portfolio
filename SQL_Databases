@@ -42,7 +42,7 @@ LOG ON
   (NAME = 'STAGING',
   FILENAME = 'D:\SQL\STAGING')
   
-/*Сделать бэкап базы AdventureWorksDW2019 со сжатием и без сжатия./*
+/*Сделать бэкап базы AdventureWorksDW2019 со сжатием и без сжатия.*/
 
 BACKUP DATABASE [AdventureWorksDW2019] TO DISK='D:\SQL\AdventureWorksDW2019_Full.bak'
 /*BACKUP DATABASE successfully processed 315362 pages in 4.854 seconds (507.573 MB/sec).
@@ -53,7 +53,7 @@ WITH COMPRESSION
 /*BACKUP DATABASE successfully processed 315362 pages in 2.982 seconds (826.211 MB/sec).
 Size: 108,160 KB*/
 
-/*Восстановите базу с названием RestoreTest из бэкапа базы AdventureWorksDW2019./*
+/*Восстановите базу с названием RestoreTest из бэкапа базы AdventureWorksDW2019.*/
 
 RESTORE DATABASE [AdventureWorksDW2019]  
 FROM DISK = 'D:\SQL\AdventureWorksDW2019_Compressed.bak'
