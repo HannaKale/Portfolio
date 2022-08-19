@@ -1,6 +1,5 @@
 Напишите программу, вычисляющую площадь треугольника по переданным длинам трёх его сторон по формуле Герона.
-# put your python code here
-a, b, c = int(input()), int(input()), int(input())
+# a, b, c = int(input()), int(input()), int(input())
 p = (a + b + c)/2
 S = (p*(p-a)*(p-b)*(p-c)) **0.5
 print (S)
