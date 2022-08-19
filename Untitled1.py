@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Напишите программу, вычисляющую площадь треугольника по переданным длинам трёх его сторон по формуле Герона.
 a, b, c = int(input()), int(input()), int(input())
 p = (a + b + c)/2
@@ -143,10 +137,3 @@ for i in range(len(s)):
         shifr = shifr + s[i] + str(cnt)
         cnt = 0
 print (shifr)
-
-
-# In[ ]:
-
-
-
-
